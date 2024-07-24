@@ -1,0 +1,21 @@
+{
+  "name": "volvo-cars-automation",
+  "description": "This repository contains automated visual regression test cases for volvo-cars.",
+  "type": "module",
+
+  "devDependencies": {
+    "@wdio/cli": "^8.39.1",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "chai": "^5.1.1",
+    "wdio-image-comparison-service": "^5.0.3"
+  },
+
+  "author": "Pankaj Chauahan <psc26dec@gmail.com>"
+}
